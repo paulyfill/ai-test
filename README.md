@@ -25,11 +25,11 @@ docker compose up
 
 ## Переменные окружения
 
-| Переменная               | Описание                                                   |
-| ------------------------ | ---------------------------------------------------------- |
-| `TELEGRAM_BOT_TOKEN`     | Токен Telegram-бота ([@BotFather](https://t.me/BotFather)) |
-| `TELEGRAM_ALLOWED_USERS` | Разрешённые user ID через запятую (пусто — все)            |
-| `OPENROUTER_API_KEY`     | API-ключ [OpenRouter](https://openrouter.ai/keys)          |
+| Переменная               | Описание                                                      |
+| ------------------------ | ------------------------------------------------------------- |
+| `TELEGRAM_BOT_TOKEN`     | Токен Telegram-бота ([@BotFather](https://t.me/BotFather))    |
+| `TELEGRAM_ALLOWED_USERS` | Разрешённые user ID через запятую - Опционально (пусто — все) |
+| `OPENROUTER_API_KEY`     | API-ключ [OpenRouter](https://openrouter.ai/keys)             |
 
 ## LLM
 
