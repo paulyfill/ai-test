@@ -1,0 +1,23 @@
+services:
+  mcp-news:
+    build: ./mcp-news
+    networks:
+      - app
+
+  hermes:
+    build: ./hermes
+    env_file:
+      - .env
+    depends_on:
+      - mcp-news
+    networks:
+      - app
+    volumes:
+      - hermes-data:/root/.hermes
+    restart: unless-stopped
+
+volumes:
+  hermes-data:
+
+networks:
+  app:

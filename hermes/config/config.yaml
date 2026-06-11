@@ -1,0 +1,10 @@
+model:
+  provider: openrouter
+  default: openai/gpt-oss-120b
+  base_url: https://openrouter.ai/api/v1
+
+mcp_servers:
+  news:
+    url: http://mcp-news:8000/mcp
+    timeout: 30
+    connect_timeout: 15
